@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Emergency Transportation Services</title>
+    <link rel="stylesheet" href="emergency-contact.css">
+    <link rel="shortcut icon" href="lpgo.png">
+</head>
+<body>
+    <script>
+        // JavaScript function to display a pop-up message
+        function registerForSeminar() {
+            alert("Email sent Successfully!");
+        }
+    </script>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <section>
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label for="incident">What Happened?</label>
+            <textarea id="incident" name="incident" rows="4" required></textarea>
+            
+            <button type="submit"><a href="#" class="register-btn" onclick="registerForSeminar()">SUBMIT</a></button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Emergency Transportation Services</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
